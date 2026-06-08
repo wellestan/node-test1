@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   build: {
-    target: 'node26',
+    target: 'node24',
     outDir: 'dist',
     rollupOptions: {
       input: resolve(__dirname, 'index.js'),
